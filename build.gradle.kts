@@ -15,8 +15,13 @@ repositories {
 intellij {
     version.set("2021.3.3")
     type.set("IC") // Target IDE Platform
-
     plugins.set(listOf(/* Plugin Dependencies */))
+
+}
+
+dependencies {
+    implementation ("org.apache.httpcomponents:fluent-hc:4.5.13")
+    implementation ("com.fasterxml.jackson.core:jackson-core:2.14.1")
 }
 
 tasks {
