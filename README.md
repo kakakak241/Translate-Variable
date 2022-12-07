@@ -2,4 +2,4 @@
 ## Info about me
 Danila Zubov M33071
 ## Description
-My plugin translates Variable from Russian to English
+My plugin translates variable from Russian to English
